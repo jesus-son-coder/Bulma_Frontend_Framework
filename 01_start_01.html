@@ -15,14 +15,238 @@
 <body>
 
     <!-- Le reste du contenu -->
-    <div class="container">
+    <div class="container" style="margin-bottom:100px;">
         
+        <div class="jumbotron">
+            <h1 class="title is-1">Bulma vs Bootstrap 4</h1> <!-- class Bulma-->
+        </div>
+
+        <!-- Box : -->
+        <h1 class="col-12 title is-1 border" style="background-color: aliceblue;">Les Boxes :</h1>
+
+        <div class="block">
+            <div class="box">
+                <h1 class="title">Mon titre</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est neque commodi atque voluptates ex repudiandae eligendi accusamus vero deserunt! Quae nulla voluptas ipsam aut neque quidem ad impedit obcaecati corporis?</p>
+            </div>
+        </div>
+
+        <br><br>
+
+        <!-- Les Notifications : -->
+        <h1 class="col-12 title is-1 border" style="background-color: aliceblue;">Les Notifications :</h1>
+
+        <div class="block">
+            <div class="box">
+                <div class="notification">
+                    <p>Ceci est une notification !</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="notification is-success">
+                    <p>Ceci est une notification "is-success" !</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="notification is-danger">
+                    <p>Ceci est une notification "is-danger" !</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="notification is-warning">
+                    <p>Ceci est une notification "is-warning" !</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="notification is-primary">
+                    <p>Ceci est une notification "is-primary" !</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="notification is-black">
+                    <p>Ceci est une notification "is-black" !</p>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+
+
+        <!-- Les Colonnes : -->
+        <div class="col-12 title is-1 border" style="background-color: aliceblue;">Les Colonnes :</div>
+        <div class="block">
+            <!-- 2 Colonnes : -->
+            <div class="columns">
+               <div class="column">
+                   <p class="notification">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae debitis, autem alias tenetur, esse corrupti aperiam harum est quisquam delectus laudantium, nostrum quae. Tempore, hic nisi maxime praesentium quae perspiciatis?
+                   </p>
+               </div> 
+               <div class="column">
+                    <p class="notification">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae debitis, autem alias tenetur, esse corrupti aperiam harum est quisquam delectus laudantium, nostrum quae. Tempore, hic nisi maxime praesentium quae perspiciatis?
+                    </p>
+                </div> 
+            </div>
+
+            <!-- 3 Colonnes : -->
+            <div class="columns">
+                <div class="column">
+                    <p class="notification">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae debitis, autem alias tenetur, esse corrupti aperiam harum est quisquam delectus laudantium, nostrum quae. Tempore, hic nisi maxime praesentium quae perspiciatis?
+                    </p>
+                </div> 
+                <div class="column">
+                    <p class="notification">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae debitis, autem alias tenetur, esse corrupti aperiam harum est quisquam delectus laudantium, nostrum quae. Tempore, hic nisi maxime praesentium quae perspiciatis?
+                    </p>
+                </div> 
+                <div class="column">
+                    <p class="notification">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae debitis, autem alias tenetur, esse corrupti aperiam harum est quisquam delectus laudantium, nostrum quae. Tempore, hic nisi maxime praesentium quae perspiciatis?
+                    </p>
+                </div> 
+            </div>
+
+             <!-- 2 Colonnes avec des tailles : -->
+             <div class="columns">
+                <div class="column is-three-quarters">
+                    <p class="notification">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae debitis, autem alias tenetur, esse corrupti aperiam harum est quisquam delectus laudantium, nostrum quae. Tempore, hic nisi maxime praesentium quae perspiciatis?
+                    </p>
+                </div> 
+                <div class="column">
+                     <p class="notification is-success">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae debitis, autem alias tenetur, esse corrupti aperiam harum est quisquam delectus laudantium, nostrum quae. Tempore, hic nisi maxime praesentium quae perspiciatis?
+                    </p>
+                </div> 
+            </div>
+            
+            <div class="columns">
+                <div class="column">
+                    <p class="notification is-black">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae debitis, autem alias tenetur, esse corrupti aperiam harum est quisquam delectus laudantium, nostrum quae. Tempore, hic nisi maxime praesentium quae perspiciatis?
+                    </p>
+                </div> 
+            </div>
+        </div>
+
+        <br><br>
+
+
+        <!-- Titre: -->
+        <!-- La class "block" est un peu le css: "display:block"-->
+        <div class="col-12 title is-1 border pb-4" style="background-color: aliceblue;">Les Titres (Headings) :</div>
+        <div class="block">
+            <h1 class="h1">Welcome !</h1> <!-- class Bootstrap-->
+            <h1 class="title">hello class "title" !</h1> <!-- class Bulma-->
+            <h2 class="subtitle">hello class "subtitle" !</h2> <!-- class Bulma-->
+            <hr>
+            <h1 class="title is-1">hello class "is-1" !</h1> <!-- class Bulma-->
+            <h2 class="subtitle is-2">hello class "is-2" !</h2> <!-- class Bulma-->
+            <h2 class="title is-3">hello le 3</h2> <!-- class Bulma-->
+        </div>
+
+
+        <br><br>
+
+        <!-- Contenu: -->
+        <!-- La class "content" rajoute une marge supérieure et inférrieure. -->
+        <h1 class="col-12 title is-1 border" style="background-color: aliceblue;">Les Paragraphes :</h1>
+        <div class="block">
+            <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis maxime, consequatur odit dicta consequuntur officiis sint laborum dolores quidem explicabo repellat dignissimos deserunt dolorem, dolorum eius repudiandae nulla quibusdam!</p>
+            
+            <!-- Les classes 'is-small', 'is-medium' et 'is-large' s'appliquent aux tailles de textes d'éléments de type block : -->
+            <p class="content is-small"><strong>Class "is-small": </strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis maxime, consequatur odit dicta consequuntur officiis sint laborum dolores quidem explicabo repellat dignissimos deserunt dolorem, dolorum eius repudiandae nulla quibusdam!</p>
+            
+            <p class="content is-medium"><strong>Class "is-medium": </strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis maxime, consequatur odit dicta consequuntur officiis sint laborum dolores quidem explicabo repellat dignissimos deserunt dolorem, dolorum eius repudiandae nulla quibusdam!</p>
+            
+            <p class="content is-large"><strong>Class "is-large": </strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis maxime, consequatur odit dicta consequuntur officiis sint laborum dolores quidem explicabo repellat dignissimos deserunt dolorem, dolorum eius repudiandae nulla quibusdam!</p>
+        </div>
+        <br><br>
+
+        <!-- Les Boutons : -->
+        <h1 class="col-12 title is-1 border" style="background-color: aliceblue;">Les Boutons :</h1>
+
+        <div class="block">
+            Bouton Bootstrap "default" : <button class="btn btn-default">Default</button>
+            <br><br>
+            Bouton Bulma "default" : <button class="button">Default</button>
+            <hr>
+    
+            Bouton Bootstrap "primary" : <button class="btn btn-primary">Primary</button>
+            <br><br>
+            Bouton Bulma "primary" : <button class="button is-primary">Primary</button>
+            <hr>
+    
+            Bouton Bootstrap "success" : <button class="btn btn-success">Success</button>
+            <br><br>
+            Bouton Bulma "success" : <button class="button is-success">Success</button>
+            <hr>
+    
+            Bouton Bootstrap "warning" : <button class="btn btn-warning">Warning</button>
+            <br><br>
+            Bouton Bulma "warning" : <button class="button is-warning">Warning</button>
+            <hr>
+    
+            Bouton Bootstrap "danger" : <button class="btn btn-danger">Danger</button>
+            <br><br>
+            Bouton Bulma "danger" : <button class="button is-danger">Danger</button>
+            <hr>
+    
+            Bouton Bootstrap "link" : <button class="btn btn-link">Link</button>
+            <br><br>
+            Bouton Bulma "link" : <button class="button is-link">Link</button>
+            <hr>
+    
+            Bouton Bootstrap "dark" : <button class="btn btn-dark">Dark</button>
+            <br><br>
+            Bouton Bulma "black" : <button class="button is-black">Black</button>
+            <hr>
+    
+            <!-- La Taille des Boutons : -->
+            <h1 class="col-12 title is-3 border" style="background-color: aliceblue;">La Taille des Boutons Bulma :</h1>
+            <button class="button is-danger is-small">is-small</button> 
+            <button class="button is-danger is-medium">is-medium</button> 
+            <button class="button is-danger is-large">is-large</button> 
+            <hr>
+    
+            <!-- Les états des Boutons : -->
+            <h1 class="col-12 title is-3 border" style="background-color: aliceblue;">Les états des Boutons Bulma :</h1>
+            <button class="button is-success" disabled>is-small</button> 
+            <button class="button is-success is-loading">is-loading</button> 
+            <button class="button is-success is-outlined">is-outlined</button> 
+            <button class="button is-danger is-outlined">is-outlined</button> 
+        </div>
+       
+
+        <br><br><br>
+
+        <!-- Les Tags : -->
+        <h1 class="col-12 title is-1 border" style="background-color: aliceblue;">Les Tags :</h1>
+
+        <div class="block">
+            <span class="tag is-danger">tag</span>
+            <span class="tag is-primary">tag</span>
+            <span class="tag is-warning">tag</span>
+            <span class="tag is-success">tag</span>
+            <span class="tag is-link">tag</span>
+        </div>
+       
+
+        <br><br><br>
+
 
 
     </div>
 
-    <!-- Librairies JavaScrip -->
-    <!-- -------------------- -->
+    <!-- Librairies JavaScript -->
+    <!-- --------------------- -->
     <script src="./js/jquery/jquery_3_3_1.js"></script>
     <script src="./js/bootstrap/bootstrap.min.js"></script>
 </body>
